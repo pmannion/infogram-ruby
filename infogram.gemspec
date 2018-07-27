@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
 
-  s.add_development_dependency 'bundler', '~> 1.7'
-  s.add_development_dependency 'rake', '~> 10.0'
-  s.add_dependency 'httparty', '~> 0.13'
-  s.add_dependency 'json', '~> 1.8'
+  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rake'
+  s.add_dependency 'httparty', '~> 0.16.2'
+  s.add_dependency 'json',  '~> 2.1.0'
 end
